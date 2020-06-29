@@ -1,0 +1,2262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<base href="https://secure2.convio.net/ksu/site/" />
+<title>
+
+Survey - Kent State University Parents and Families Association - Kent State University
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="Keywords" content=" " />
+<meta name="Description" content="" />
+<meta name="Robots" content="index, follow" />
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="../yui3/yui/yui-min.js"></script><noscript>&nbsp;</noscript>
+<script type="text/javascript" src="../js/convio/modules.js?version=2.9"></script><noscript>&nbsp;</noscript>
+<script type="text/javascript">
+var Y = YUI({base: '../yui3/',
+insertBefore: 'yui_marker_loader_css', // insert all YUI module css before customstyle so it can be overridden
+debug: false, 
+modules: getModules('../', 'convio', true)});
+</script><noscript>&nbsp;</noscript>
+
+
+<script type="text/javascript" src="../js/utils.js"></script><noscript>&nbsp;</noscript>
+
+<script type="text/javascript" src="../js/obs_comp_rollup.js"></script><noscript>&nbsp;</noscript>
+
+
+<link href="../css/themes/default.css" rel="stylesheet" type="text/css" />
+<link href="../css/themes/alphacube.css" rel="stylesheet" type="text/css"/>
+
+
+<link href="../css/UserGlobalStyle.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<link rel="stylesheet" type="text/css" id="yui_marker_loader_css" />
+<link href="../css/CustomStyle.css" rel="stylesheet" type="text/css" />
+<link href="../css/CustomWysiwygStyle.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+<meta name="CnvHeaderVersion" content="v5.0" />
+
+
+<!-- reus_wrpr_give2KSU_head -->
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Stylesheets -->
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="../give2KSU/css/reset.css"/>
+<link rel="stylesheet" href="../give2KSU/css/select.css"/>
+<link rel="stylesheet" href="../give2KSU/css/select2.min.css"/>
+<link rel="stylesheet" href="../site/SPageNavigator/reus_wrpr_give2KSU_main_styles.html?pgwrap=n"/>
+
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+    
+<!-- JavaScript Files -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="../give2KSU/lib/html5shiv.min.js"></script>
+<script src="../give2KSU/lib/respond.min.js"></script>
+<script type="text/javascript">window.isIE8=true;</script>
+<![endif]-->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/luminateExtend/1.7.1/luminateExtend.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-sanitize.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-route.min.js"></script>
+<script src="../give2KSU/lib/showdown.js"></script>
+<script src="../give2KSU/lib/select.js"></script>
+
+
+<style>
+
+*, html, body, form, input, input.AddressBookButtons, input.Advocacy, input.btn, input.btnLg, input.btnMed, input.btnMini, input.btnSm, select, select.Advocacy, textarea, legend, ul, ol, li, option, table, tr, th, th.rfl_infoStatus, td, td.AlertListDescription, td.cstmBack, p, p.cstmBtnText, p.cstmFrame, p.cstmHeading, p.cstmText, p.cstmTitle, p.dividerHeading, p.scrollingText, span.cstmHeading, a, a.btn, a.btn:visited, a.cstmBtnText:hover, a.cstmBtnText:link, a.cstmBtnText:visited, #navList, .AdvocacyInstructions, .AdvocacyNSFix, .BlogHeader, .Button, .Divider, .FieldLabels, .FormBox, .FormBox06, .FormBoxHeader, .Hint, .Instructions, .Instructions, .ListItem0, .ListItem1, .NetscapeFix, .NoteText, .ObjTitle, .PhotoLinks, .Premiums, .ProgressBox, .ProgressBoxCurrent, .SectionHead, .SmallButton, .Smaller, .SmallerC, .TribBtnText1, .Upgrades, .WhatNext, .alphacube_content, .dialog_content, .dialog_title, .Explicit, .fr_register_another, .paraBlueSansSmall, .smallBlack, .smallSans, .smallSansBold, .smallWhiteBoldSans, .smallWhiteSans, .smallestBlackSans, h1, h2, h3, h4, h5, h6, label#cons-reg-accepts_email-hidden {
+    font-family: "National","Source Sans Pro", sans-serif!important;
+	color: #003976;
+}
+
+p, label {
+line-height: 24px;
+}
+
+.mobile div.responsive {
+width: 100%;
+}
+
+body, p, li, ol, ul, table, tr, td, .Explicit {
+font: 18px/24px "National","Source Sans Pro", sans-serif;
+}
+
+
+
+img.centered {
+margin: 0 auto;
+}
+
+label {
+white-space: normal;
+margin-top: 0px;
+}
+
+h2.lo-titlebar, h1.survey-form-title {
+border-bottom: 3px solid #4994cb;
+    font: bold 34px/1em "National","Source Sans Pro", sans-serif;
+    margin: 1em 0;
+    padding: 0 0 0.5em;
+}
+
+div.lo-CalendarDateInfoContainer, div.appArea {
+width: 100%;
+font-size: 18px;
+line-height: 28px;
+}
+
+div.lo-EventBorderContainer {
+margin: 0px;
+width: 100%
+}
+
+
+div.consRegFieldContainer .fieldContainer .field-row {
+width: 100%;
+}
+
+div.consRegFieldContainer .fieldContainer .field-row .label {
+width: 100%;
+text-align: left;
+}
+
+div.consRegFieldContainer .fieldContainer .field-row .value {
+width: 100%;
+}
+
+label, .label {
+    text-transform: none;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "National","Source Sans Pro", sans-serif;
+    color: #003976;
+padding: 0px;
+margin: 0px;
+}
+
+span.input-container label {
+display: inline;
+}
+
+
+input[type="text"], select, select[size], select[multiple], div.responsive textarea, input[type="email"], input[type="number"], input[type="tel"], .NetscapeFix textarea, select.form-control, select.js--survey-combo-dropdown, textarea.form-control, div.responsive .luminate-eventAppArea input[type="number"], div.responsive .luminate-eventAppArea input[type="text"] {
+    background-color: #ecf4fa;
+    border: none!important;
+    margin: 0 0 1.25em;
+    border-radius: 0px!important;
+    min-height: 50px;
+	height: 50px;
+    font-size: 16px;
+    display: block;
+	color: #4994cb;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+select, select.form-control {
+background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEuNDEgNC42NyAyLjQ4IDMuMTggMy41NCA0LjY3IDEuNDEgNC42NyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIzLjU0IDUuMzMgMi40OCA2LjgyIDEuNDEgNS4zMyAzLjU0IDUuMzMiLz48L3N2Zz4=) no-repeat 95% 50%;
+	-moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+	background-color: #ecf4fa;
+    border: none!important;
+    margin: 0 0 1.25em;
+    border-radius: 0px!important;
+    min-height: 50px;
+	height: 50px;
+    font-size: 16px;
+    display: block;
+	color: #4994cb;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+select optgroup, select option {
+color: #4994cb;
+font-size: 18px;
+}
+
+input[type="submit"], div.luminate-donationContainer input.submit-blue {
+    
+    min-width: 220px;
+    width: auto;
+background-color: #4994cb;
+    border: 0 solid transparent;
+    border-radius: 0;
+    color: #ffffff;
+    margin: 12px 0;
+    padding: 15px;
+    font-size: 20pt;
+    font-family: "National", "Source Sans Pro";
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+div.luminate-donationContainer input.submit-blue, input#ACTION_SUBMIT_SURVEY_RESPONSE {
+    
+    float: right;
+}
+
+
+input#CANCEL_DIRECT_PAY_FORM, input#ACTION_CANCEL_RESPONSE_SUBMIT {
+background-color: #eeeeee;
+float: left;
+color: #003976;
+}
+
+input#PARSE_PAYMENT_FORM:hover {
+background-color: #eeac1f;
+}
+
+input#CANCEL_DIRECT_PAY_FORM:hover {
+background-color: #ecf4fa;
+}
+
+.Button:hover, .Button:active, div.luminate-donationContainer input.submit-blue:active {
+background-color: #efab00;
+}
+
+input[type="reset"], input[type="cancel"], #lo-address-a64, input[value="Back"], div.ui-dialog.ui-widget.ui-widget-content a, div.ui-dialog.ui-widget.ui-widget-content a:link, div.ui-dialog.ui-widget.ui-widget-content a:visited, div.ui-dialog.ui-widget.ui-widget-content a:hover, div.ui-dialog.ui-widget.ui-widget-content a:active, #eventLink1, #eventLink2, #lo-EventLinkContainer  {
+display: none;
+}
+
+.PaddedListHeadingsC label {
+font: 1em/1em Arial, Helvetica, Verdana, sans-serif;
+font-weight: bold;
+text-align: left;
+margin: 0px;
+}
+
+table.lo-no_border_bottom {
+border: 0px solid;
+}
+
+
+div.consRegFieldContainer .fieldContainer {
+width: 100%;
+}
+
+
+
+div.value {
+display: block;
+clear: both;
+width: 100%;
+}
+
+
+.ui-dialog {
+position: fixed!important;
+top: 10% !important;
+    left: 10% !important;
+    overflow: auto;
+    
+}
+
+.ticket-class-details-dialog .ui-widget-header .ui-icon {
+    display: inline-block;
+    top: 3px;
+    position: relative;
+    margin-left: 10px;
+}
+
+div.lo-EventBorderContainer, div.lo-BorderContainer {
+border: 0px;
+padding: 0px;
+}
+
+div.lo-EventSubHeaderBar {
+
+    font: bold 28px/1em "National","Source Sans Pro", sans-serif;
+    margin: 1em 0;
+    padding: 0 0 0.2em;
+}
+
+#event_preference_information {
+width: 100%;
+}
+
+#lo-EventAttendeeContainer span {
+display: block;
+margin-bottom: 10px;
+}
+
+div.consRegFieldContainer .fieldContainer .field-row, div.consRegFieldContainer .fieldContainer label, div.consRegFieldContainer .fieldContainer .wrapable {
+margin: 0px;
+padding: 0px;
+}
+
+th.lc_Heading {
+background-color: #4994cb;
+border: 1px solid #fff;
+}
+
+td.lo-Event_lc_Cell_border_top {
+border-top: 1px solid #fff;
+}
+
+p.PaddedListHeadingsC, #lo-ticket_class_list_user label {
+color: #ffffff;
+font-size: 18px;
+}
+
+td.lc_Cell{
+border: 1px solid #fff;
+}
+
+.luminate-eventAppArea input[type=checkbox] {
+  visibility:hidden;
+  width:0;
+  height:0; 
+  display:block;
+  position:absolute;
+}
+
+.luminate-eventAppArea .NoteText {
+line-height: 36px;
+margin: 0px;
+}
+
+
+.luminate-eventAppArea label.checkbox:before{
+  visibility:visible;
+  position:absolute;
+  top: -2px;
+  height: 30px;
+  width:30px;
+  left: 0;
+  background-color:#ecf4fa;
+  content:" ";
+  display: block;
+}
+
+
+
+.luminate-eventAppArea label.checkbox{
+  position:relative;
+  padding-left: 44px;
+  color: #003976;
+}
+
+.luminate-eventAppArea input[type=checkbox]:checked label.checkbox:before{
+  visibility:visible;
+  position:absolute;
+  top: -2px;
+  height: 30px;
+  width:30px;
+  left: 0;
+  background-color:#ecf4fa;
+  content:"X";
+  display: block;
+} 
+
+.luminate-eventAppArea input[type=checkbox]:checked+label.checkbox:after{
+  visibility:visible;
+  position:absolute;
+  top: -2px;
+  height: 30px;
+  width:30px;
+  left: 0;
+  background-color:#ecf4fa;
+  content:"X";
+  display: block;
+  color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+} 
+
+
+.luminate-eventAppArea label.checked:before{
+  visibility:visible;
+  position:absolute;
+  top: -2px;
+  height: 30px;
+  width:30px;
+  left: 0;
+  background-color:#ecf4fa;
+  content:"X";
+  display: block;
+color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+}
+
+div.consRegFieldContainer div.cons-reg-label-checkbox {
+padding-top: 15px;
+}
+
+div.consRegFieldContainer div.cons-reg-label-checkbox label {
+padding-left: 40px;
+}
+
+.luminate-eventAppArea input[type=radio] {
+ visibility:hidden;
+  width:0;
+  height:0; 
+  display:block;
+  position:absolute;
+}
+
+
+
+.luminate-eventAppArea .lo-UserDetailContainer label.radio:before{
+  visibility:visible;
+  position:absolute;
+  top: -2px;
+  height: 30px;
+  width:30px;
+  left: 0;
+  background-color:#ecf4fa;
+  content:" ";
+  display: block;
+}
+
+
+
+.luminate-eventAppArea label.radio{
+  position:relative;
+  padding-left: 44px;
+  color: #003976;
+}
+
+.luminate-eventAppArea input[type=radio]:checked label.radio:before{
+  visibility:visible;
+  position:absolute;
+  top: -2px;
+  height: 30px;
+  width:30px;
+  left: 0;
+  background-color:#ecf4fa;
+  content:"X";
+  display: block;
+} 
+
+.luminate-eventAppArea input[type=radio]:checked+label:after{
+  visibility:visible;
+  position:absolute;
+  top: -2px;
+  height: 30px;
+  width:30px;
+  left: 0;
+  background-color:#ecf4fa;
+  content:"X";
+  display: block;
+  color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+}
+
+
+.luminate-eventAppArea .hidden-field-label label:before{
+display: none!important;
+}
+
+.luminate-eventAppArea legend {
+margin-bottom: 0px;
+}
+
+@media only screen and (max-width:767px) {
+	 
+	 div.lo-UserDetailContainer {padding:10px} 
+/* ticket */
+table#lo-ticket_class_list_user tbody tr *:nth-child(3), table#lo-ticket_class_list_user tbody tr *:nth-child(4) { display:none; } 
+table#lo-ticket_class_list_user tbody tr *:nth-last-child { border:none; } 
+
+td.lo-Event_lc_Cell_border_top { padding: 10px 0;}
+
+div.lo-EventAdditonalLabel {
+width: 100%;
+display: block;
+padding-top: 50px;
+}
+
+}
+
+
+/* Billing */
+
+p.PaddedListHeadingsC {
+    margin: 0;
+    font-weight: bold;
+	text-align: left;
+	 }
+#billing_info_header_id {
+font-size: 28px;
+margin-bottom: 45px;
+}
+	
+#billing-info-table tr td {
+	vertical-align: middle;
+background-color: #ffffff;
+}
+
+label {
+margin-top: 10px;
+}
+div.requiredLegend {
+	float: left
+}
+div.luminate-donationContainer div.ButtonContainer {
+	float: none;
+}
+
+#billing-info-table select {
+	width: 100%;
+	height: 50px
+}
+LABEL[for="DON_EMAIL_OPT_IN"], LABEL[for="s_rememberMe"] {
+	white-space: normal;
+display: inline;
+}
+
+#billing-info-table tr td {
+	display: block;
+	padding: 0;
+	width: 100%;
+}
+
+
+#billing-info-table table {
+margin: 0px;
+border-spacing: 0px;
+    border-collapse: separate;
+}
+#billing-info-table label {
+margin-top: 0px;
+}
+
+#billing-info-table table:first-child td:first-child {
+float: left;
+display: inline;
+width: 1%;
+margin-top: 5px;
+}
+
+#billing-info-table table:first-child .FormInput td {
+display: block;
+width: 100%;
+margin-top: 0px;
+}
+
+#billing-info-table table:first-child .FormInput td{
+display: block;
+width: 100%;
+margin-top: 0px;
+}
+
+#billing-info-table td.wider   {
+display: block!important;
+width: 40%!important;
+margin-top: 0px;
+}
+
+input#CVV_NUM_SELECTED {
+margin-bottom: 0px;
+}
+
+a.hint {
+margin-bottom: 10px;
+display: block;
+}
+
+#billing-info-table td.cc-icons {
+width: 12%!important;
+display: inline-block!important;
+margin-top: 0px!important;
+margin-bottom: 20px;
+}
+
+#billing-info-table table:first-child td[colspan="3"] {
+ width: 100%;
+display: block;
+margin-bottom: 15px;
+margin-top: -15px;
+}
+
+div.lo-EventAdditionalGiftValueContainer #tix_total_amount_div {
+padding-top: 12px;
+display: inline-block;
+}
+
+#billing-info-table input[type="radio"] {
+visibility: hidden;
+}
+
+#billing-info-table input[type=radio]:before {
+  visibility:visible;
+  position:absolute;
+  top: -28px;
+  height: 30px;
+  width:30px;
+  left: -12px;
+  background-color:#ecf4fa;
+  content:" ";
+  display: block;
+}
+
+
+
+#billing-info-table input[type=radio]:checked:before{
+  visibility:visible;
+  position:absolute;
+  top: -28px;
+  height: 30px;
+  width:30px;
+  left: -12px;
+  background-color:#ecf4fa;
+  content:"X";
+  display: block;
+} 
+
+#billing-info-table input[type=radio]:checked:after {
+  visibility:visible;
+  position:absolute;
+  top: -28px;
+  height: 30px;
+  width:30px;
+  left: -12px;
+  background-color:#ecf4fa;
+  content:"X";
+  display: block;
+  color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+}
+
+
+/* Surveys */
+
+
+tr, th, td {
+background-color: #fff;
+margin: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.NetscapeFix br, fieldset br, tr.old-school br {
+display: none;
+}
+
+.NetscapeFix textarea {
+margin-bottom: 0px!important;
+padding-bottom: 0px;
+}
+
+span.Hint {
+display: block;
+padding-bottom: 20px;
+}
+
+.form-error-message {
+color: #990000;
+border: 1px solid #990000;
+padding: 5px;
+background-color: rgb(254, 234, 235);
+border-radius: 2px;
+}
+
+
+label.radio {
+margin: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+   h1.survey-form-title, 
+   h1.survey-form-title + form{
+     max-width:100%;
+   }
+}
+
+h1.survey-form-title + form div.form-group .checkbox,
+h1.survey-form-title + form div.form-group .radio {
+  position:inherit;
+  margin:0;
+  padding-left: 40px;
+}
+
+h1.survey-form-title + form div.form-group .checkbox input[type=checkbox],
+h1.survey-form-title + form div.form-group .radio input[type=radio] {
+  position:inherit;
+  display:none;
+}
+
+h1.survey-form-title + form div.form-group .checkbox input[type=checkbox] + label:before {
+  position: absolute;
+  height: 30px;
+  width:30px;
+  left: 30px;
+  background-color:#ecf4fa;
+  content:"  ";
+color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+font-family: "National", "Source Sans Pro", sans-serif;
+}
+
+h1.survey-form-title + form div.form-group .checkbox input[type=checkbox]:checked + label:before {
+  content:"X";
+color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+font-family: "National", "Source Sans Pro", sans-serif;
+}
+
+h1.survey-form-title + form div.form-group .radio input[type=radio] + label:before {
+  position: absolute;
+  height: 30px;
+  width:30px;
+  left: 30px;
+  background-color:#ecf4fa;
+  content:"  ";
+color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+font-family: "National", "Source Sans Pro", sans-serif;
+}
+
+h1.survey-form-title + form div.form-group .radio input[type=radio]:checked + label:before {
+  content:"X";
+color:#4994cb;
+  line-height:30px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:28px;
+font-family: "National", "Source Sans Pro", sans-serif;
+}
+
+#lo-ticket_class_list_user th, #lo-ticket_class_list_user td, #EventHistory th, #EventHistory td  {
+border: 1px solid #f5f5f5;
+}
+
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+#content {
+min-height: 400px;
+}
+}
+
+@media (max-width: 1000px) {
+#lo-additional-label-container {
+max-width: 400px;
+width: 60%;
+float: left;
+
+}
+
+.wrapable {
+margin-top: 0px;
+padding-top: 0px;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {    
+ .mobile div.responsive {
+       width: 100% !important;
+ }
+}
+
+@media only screen and (max-width:768px) {
+
+span.lo-bold-text, table#lo-ticket_class_list_user div {
+display: block; 
+
+}
+
+table.lo-no_border_bottom {
+border-top: 0;
+}
+
+td.lo-Event_lc_Cell_border_top {
+border-top: 0;
+}
+
+.survey-question-container .ungrouped {
+display:block
+}
+
+
+
+
+p.centered {
+	width: 100px;
+}
+
+#EventHistory, p.PaddedListHeadingsC, p.PaddedListHeadingsC label {
+    	 font-size: 12px !important;}
+
+LABEL[for="DON_EMAIL_OPT_IN"], LABEL[for="s_rememberMe"] {
+	display: block;
+}
+
+} 
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+#lo-additional-label-container {
+max-width: 200px;
+width: 70%;
+float: left;
+
+}
+
+#billing-info-table td.cc-icons {
+width: 25%!important;
+}
+
+div.lo-EventAdditonalLabel {
+    width: 70%;
+    display: inline;
+    padding-top: 5px;
+}
+
+#billing-info-table table:first-child td:first-child {
+
+width: 3%;
+}
+
+input#ACTION_SUBMIT_SURVEY_RESPONSE, input#ACTION_CANCEL_RESPONSE_SUBMIT {
+    float: none;
+}
+
+.js--survey-buttons {
+text-align: center;
+}
+
+#billing-info-table table:first-child .FormInput td {
+width: 100%;
+}
+
+input#CANCEL_DIRECT_PAY_FORM, input#ACTION_CANCEL_RESPONSE_SUBMIT, #donation-botton-container, div.luminate-donationContainer input.submit-blue, input#ACTION_SUBMIT_SURVEY_RESPONSE {
+float: none;
+text-align: center;
+}
+
+
+}
+
+
+@media (max-width: 580px) {
+label {
+float: none;
+}
+}
+
+
+#ksusubhead {
+font-family: Garamond, Georgia, serif; 
+color: white; 
+text-align: center; 
+font-size: 1.9em; 
+line-height: 1em; 
+}
+
+#templateHeader {
+    border-style: solid;
+    border-bottom-color: #ff9900;
+}
+
+
+#contact-info {
+font-family: "National", "Source Sans Pro", sans-serif;
+color: #ffffff;
+font-size: 18px;
+}
+
+#contact-info .yellow {
+text-transform: uppercase;
+color: #efab00;
+line-height: 32px;
+font-weight: bold;
+}
+
+footer {
+padding: 50px 0px 20px 0px;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+	color: #fff;
+	 font-size: .7em;
+}
+
+.social-media .fa-inverse {
+    color: #fff;
+    font-size: .7em;
+}
+
+ul.social-icons {
+list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul.social-icons li{
+display: inline-block;
+margin: 3px;
+}
+
+ul.social-icons img {
+margin-bottom: 20px;
+}
+
+
+@media (max-width: 600px) {
+#ksusubhead {
+font-family: Garamond, Georgia, serif; 
+color: white; 
+text-align: center; 
+font-size: 1.25em; 
+line-height: 1em; 
+}
+
+.headerContent {
+    text-align: left;
+	padding-left: 30px!important;
+	
+}
+
+
+
+}
+</style>
+
+
+<script type="text/javascript">
+
+/* Use Convio YUI */
+
+Y.use('jquery-noconflict', function() {
+    jQuery(function($){
+   jQuery('div[id^="ticket-class-details-"]').on('dialogcreate', function(ev, ui) {
+     jQuery('div.ticket-class-details-dialog div.ui-dialog-titlebar span.ui-dialog-title').append('<span class="ui-icon ui-icon-closethick">&nbsp;</span>');
+});        
+jQuery('div[id^="ticket-class-details-"]').on('dialogcreate', function(ev, ui) {
+    jQuery( "div.ui-dialog.ui-widget.ui-widget-content" ).click(function() {
+        jQuery(this).hide();
+    });
+});                  
+          });
+		  
+		  $('input#CVV_NUM_SELECTED').parent().addClass('wider');		  
+		  $('select#ccExp_MONTH').parent().addClass('wider');
+		  $('td:contains("colspan")').addClass('wider');
+		  $('select#ccExp_YEAR').parent().addClass('wider');
+		  $('a:contains("What is this?")').addClass('hint');
+		  $('p.centered').parent().addClass('cc-icons');
+		  $('label[for="cons_zip_code"], label[for="home_zip"]').text(function () {
+				return $(this).text().replace('ZIP', 'Zip'); 
+			});
+		  $('form[action*="Calendar"] input[type="checkbox"], form[action*="Ticketing"] input[type="checkbox"], #billing-info-container input[type="checkbox"]').each(function(){
+			var checkboxId = $(this).attr('id');
+				$('label[for="'+checkboxId+'"]').addClass('checkbox');
+			});
+		  $('form[action*="Calendar"] input[type="radio"], form[action*="Ticketing"] input[type="radio"]').each(function(){
+			var radioId = $(this).attr('id');
+				$('label[for="'+radioId+'"]').addClass('radio');
+			});			
+			$('.appArea input[type="radio"]').each(function(){
+			var radioId = $(this).attr('id');
+				$('label[for="'+radioId+'"]').addClass('radio');
+			});
+		  $('#billing-info-table input[type="radio"]').each(function(){
+				$(this).closest('label').addClass('radio');
+			 }); 
+			 
+		$('input#accepts_email').change(function(){
+    if($(this).is(":checked")) {
+        $('label#cons-reg-accepts_email').addClass("checked");
+    } else {
+        $('label#cons-reg-accepts_email').removeClass("checked");
+    }
+});
+	
+			 
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+  dataLayer = [];
+  jQuery.noConflict();
+
+  /* Survey Form Scripts */
+  jQuery(document).ready(function($) {
+    if(jQuery('body').is('.app-17, .app-22') || jQuery('form[action*="Survey"]').length > 0) {
+      document.querySelector("input").addEventListener('invalid', (function(){
+        return function(e){
+            //prevent the browser from showing default error bubble/ hint
+            e.preventDefault();
+        };
+      })(), true);
+
+      jQuery('form[action*="Survey"]').each(function () {
+        var $surveyForm = jQuery(this);
+        
+        /* keep hidden inputs */
+        $surveyForm.find('input[type="hidden"]').each(function() {
+          $surveyForm.prepend(jQuery(this));
+        });
+        if($surveyForm.find('#denySubmit').length > 0) {
+          $surveyForm.prepend('<div class="hidden">' + 
+                                $surveyForm.find('#denySubmit').closest('div').html() + 
+                              '</div>');
+        }
+        
+        /* turn .ObjTitle into an h1 */
+        if($surveyForm.find('.ObjTitle').length > 0) {
+          $surveyForm.before('<h1 class="survey-form-title">' + 
+                               $surveyForm.find('.ObjTitle').eq(0).html() + 
+                             '</h1>');
+        }
+        
+        /* error messages */
+        $surveyForm.find('.ErrorMessage').each(function() {
+          var $errorMessage = jQuery(this), 
+          errorMessage = $errorMessage.html();
+          
+          if(jQuery.trim(errorMessage) != '*') {
+            $errorMessage.replaceWith('<div class="form-error-message">' + errorMessage + '</div>');
+          }
+        });
+        
+        /* remove question numbering */
+        $surveyForm.find('.num').remove();
+        
+        /* remove unnecessary classes */
+        $surveyForm.find('.wrapable').removeClass('wrapable');
+        $surveyForm.find('.legendWrapper').each(function() {
+          jQuery(this).replaceWith(jQuery(this).html());
+        });
+        
+        /* remove unnecessary attributes */
+        $surveyForm.find('*[size]').removeAttr('size');
+        
+        /* replace legends with labels */
+        $surveyForm.find('legend').each(function() {
+          jQuery(this).replaceWith('<label class="form-group-label">' + 
+                                jQuery(this).html() + 
+                              '</label>');
+        });
+        
+        /* bootstrapify form fields */
+        $surveyForm.find('input[type="text"], input[type="number"], input[type="email"], input[type="password"], textarea, select').not('#denySubmit').each(function() {
+          var $field = jQuery(this).addClass('form-control').wrap('<div class="form-group" />'), 
+          $label = jQuery('label[for="' + $field.attr('id') + '"]');
+          $field.before($label);
+        });
+        
+        /* radio buttons and checkboxes */
+        $surveyForm.find('input[type="radio"], input[type="checkbox"]').not('fieldset.combo input[type="radio"]').each(function() {
+          var $field = jQuery(this).removeClass('radio checkbox');
+          jQuery('label[for="' + $field.attr('id') + '"]').wrap('<div class="' + $field.attr('type') + '" />').parent('div').prepend($field);
+        });
+        
+        /* combo boxes */
+        $surveyForm.find('fieldset.combo').each(function() {
+          var $fieldset = jQuery(this), 
+          $formGroupLabel = $fieldset.closest('td').find('.Explicit').eq(0), 
+          $selectedRadio = $fieldset.find('input[type="radio"]:checked'), 
+          radioName = $fieldset.find('input[type="radio"]').eq(0).attr('name'), 
+          $select = $fieldset.find('select').addClass('js--survey-combo-dropdown'), 
+          $input = $fieldset.find('input[type="text"]').removeAttr('onfocus')
+                                                       .addClass('hidden js--survey-combo-input')
+                                                       .attr('disabled', 'disabled');
+          
+          if($formGroupLabel.length > 0) {
+            $fieldset.prepend($formGroupLabel.addClass('form-group-label'));
+            $fieldset.find('.form-group-label').replaceWith('<label class="form-group-label">' + 
+                                                              $formGroupLabel.html() + 
+                                                            '</label>');
+          }
+          
+          $fieldset.append('<input type="hidden" class="js--survey-combo-toggle" name="' + radioName + '" value="1">');
+          
+          $select.attr('data-dropdownname', $select.attr('name'))
+                 .append('<option value="Other" data-togglecombo="other">Other</option>');
+          $fieldset.append($select);
+          
+          $input.attr('placeholder', 'Other');
+          if($input.val() === 'Other...') {
+            $input.removeAttr('value');
+          }
+          $fieldset.append($input);
+          
+          if($selectedRadio.length > 0) {
+            $fieldset.find('.js--survey-combo-toggle').val($selectedRadio.val());
+            if($selectedRadio.val() === '2') {
+              $select.val('Other').change();
+            }
+          }
+          
+          $fieldset.children().not('.form-group-label, select, input[type="hidden"], input[type="text"]').remove();
+          
+          $fieldset.find('select').wrap('<p />');
+          
+          $fieldset.replaceWith('<div class="form-group">' + 
+                                  $fieldset.html() + 
+                                '</div>');
+        });
+        $surveyForm.on('change', '.js--survey-combo-dropdown', function(e) {
+          var $select = jQuery(e.target).attr('name', jQuery(e.target).data('dropdownname')), 
+          $selectedOption = $select.find('option:selected'), 
+          $comboToggleInput = $select.closest('.form-group').find('.js--survey-combo-toggle').val('1'), 
+          $otherInput = $select.closest('.form-group').find('.js--survey-combo-input').addClass('hidden').attr('disabled', 'disabled');
+          
+          if($selectedOption.is('[data-togglecombo="other"]')) {
+            $select.removeAttr('name');
+            $comboToggleInput.val('2');
+            $otherInput.removeClass('hidden').removeAttr('disabled').focus();
+          }
+        });
+        
+        /* CAPTCHA */
+        $surveyForm.find('img[id^="captcha_img_"]').each(function() {
+          var $captchaImage = jQuery(this).wrap('<p />'), 
+          captchaFieldId = $captchaImage.attr('id').replace('captcha_img_', ''), 
+          $captchaPlayer = jQuery('#captcha_player_' + captchaFieldId);
+          
+          jQuery('#' + captchaFieldId).before($captchaPlayer)
+                                 .before($captchaImage)
+                                 .before('<p><a href="javascript:change_img_'+captchaFieldId+'();">Change image</a></p>');
+        });
+        
+        /* keep password component explanatory text */
+        var $passwordComponent = $surveyForm.find('#passwordComponent');
+        if($passwordComponent.length > 0) {
+          $passwordComponent.prev('p').wrap('<div class="form-group" />');
+        }
+        
+        /* hide email format */
+        $surveyForm.find('#cons_email_format').closest('.form-group').addClass('hidden');
+        
+        /* replace fieldsets with .form-group */
+        $surveyForm.find('fieldset').each(function() {
+          var $fieldset = jQuery(this), 
+          $formGroupLabel = $fieldset.find('.form-group-label'), 
+          $radiosAndCheckboxes = $fieldset.find('.radio, .checkbox'), 
+          $selects = $fieldset.find('select');
+          
+          if($formGroupLabel.length > 0) {
+            $fieldset.prepend($formGroupLabel);
+          }
+          
+          if($radiosAndCheckboxes.length > 0) {
+            $radiosAndCheckboxes.each(function() {
+              $fieldset.append(jQuery(this));
+            });
+            
+            $fieldset.children().not('label, .radio, .checkbox').remove();
+          }
+          else if($selects.length > 0) {
+            $formGroupLabel.find('.aural-only').removeClass('aural-only').each(function() {
+              jQuery(this).html(jQuery.trim(jQuery(this).html()));
+            });
+            
+            $fieldset.append('<div class="row js--survey-date-row" />');
+            
+            $selects.each(function() {
+              $fieldset.find('.js--survey-date-row').append(jQuery(this));
+            });
+            
+            $fieldset.find('.js--survey-date-row select').wrap('<div class="col-xs-12 col-sm-4" />');
+            
+            $fieldset.children().not('label, .js--survey-date-row').remove();
+          }
+          
+          $fieldset.replaceWith('<div class="form-group">' + 
+                                  $fieldset.html() + 
+                                '</div>');
+        });
+        
+        /* wrap checkboxes not in a fieldset in a .form-group */
+        $surveyForm.find('.radio, .checkbox').not('.form-group .radio, .form-group .checkbox').each(function() {
+          jQuery(this).wrap('<div class="form-group" />');
+        });
+        
+        /* mark fields as required */
+        $surveyForm.find('#cons_email').closest('.old-school').find('p:contains("*")').each(function() {
+          jQuery(this).closest('tr').find('input, textarea, select').each(function() {
+            var $field = jQuery(this), 
+            $label = jQuery('label[for="' + $field.attr('id') + '"]');
+            
+            if($label.find('span:contains("Required")').length > 0) {
+              if(!$label.is('.radio label, .checkbox label')) {
+                $label.prepend('<span class="required-field-indicator">*</span>');
+              }
+              $field.attr('required', 'required');
+            }
+          });
+        });
+        $surveyForm.find('.req.true').each(function() {
+          jQuery(this).closest('tr').find('label').not('.radio label, .checkbox label').prepend('<span class="required-field-indicator">*</span>');
+          jQuery(this).closest('tr').find('input, textarea, select').not('.js--survey-combo-toggle, .js--survey-combo-dropdown, .js--survey-combo-input, input[type="checkbox"]').attr('required', 'required');
+        });
+$surveyForm.find('#ACTION_CANCEL_RESPONSE_SUBMIT').click(function() {
+    $surveyForm.find('input[required="required"], textarea[required="required"], select[required="required"]').removeAttr('required');
+});
+        
+        /* HTML captions */
+        $surveyForm.find('.old-school').each(function() {
+          if(jQuery(this).find('input, textarea, select').length === 0) {
+            jQuery(this).find('td').eq(1).wrapInner('<div class="form-group" />');
+          }
+        });
+
+        /* move error messages into same area as error element */
+        $surveyForm.find('div.form-error-message').each(function() {
+          var $errorMessage = jQuery(this);
+          if ($errorMessage.parent().is('td')) {
+            var $errorField = $errorMessage.parent('td').parent('tr').next('tr').find('.form-group');
+            var $errorLabel = $errorField.find('label');
+            $errorField.addClass('form-error');
+            $errorLabel.first().before($errorMessage);
+          } else {
+            $errorMessage.wrap('<div class="form-group form-error" />');
+          }
+        });
+        
+        /* buttons */
+        $surveyForm.append('<div class="form-group js--survey-buttons" />');
+        $surveyForm.find('input[type="submit"], input[type="reset"]').each(function() {
+          var $button = jQuery(this);
+          
+          if($button.is('#ACTION_SUBMIT_SURVEY_RESPONSE')) {
+            $button.addClass('button button-action');
+          }
+          else {
+            $button.addClass('button button-grey');
+          }
+          
+          $surveyForm.find('.js--survey-buttons').append($button, ' ');
+        });
+        
+        /* remove default markup */
+        $surveyForm.find('.form-group').each(function() {
+          $surveyForm.append(jQuery(this));
+        });
+        $surveyForm.find('.appArea, table').remove();
+      });
+    }
+  });
+
+</script>
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TZWKT8');</script>
+<!-- End Google Tag Manager -->
+<script src="https://kit.fontawesome.com/6a2705d6b5.js"></script>
+ 
+
+		
+</head>
+<body
+
+
+
+
+
+
+
+
+
+
+
+
+class="app-22 cons-logged-out mobile 
+"
+
+>	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZWKT8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<table id="templateHeader" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-bottom: 1px solid white; border-collapse: collapse !important;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+
+<tr style="border: none; border-collapse: collapse;">
+<td class="headerContent" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #0a0a0a; font-weight: normal; padding: 15px; margin: 0; text-align: center; font-family: Helvetica, Arial, sans-serif; background-color: #113772; border-bottom: 5px solid #eeac1f;" valign="top">
+                                    <img style="border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;" src="../images/content/pagebuilder/KentLogo_PMS_124_and_white__.png" alt="Kent State University" width="200px" />
+                                  </td>
+</tr>
+</tbody>
+</table>
+
+<!--conditional to pull in banner reusables-->
+
+
+
+
+
+<div class="row text-center hidden-xs">
+<div class="col-sm-12">
+<img src="../images/content/pagebuilder/20IEV043_GeneralKSU_RSVP_DESKTOP.png" border="0" class="img-responsive centered" width="2000" alt="Kent State Athletics">
+</div>
+</div>
+
+<div class="row text-center visible-xs">
+<div class="col-xs-12">
+<img src="../images/content/pagebuilder/20IEV043_GeneralKSU_RSVP_MOBILE.png" border="0" class="img-responsive centered" width="600" alt="Kent State Homecoming">
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--end banner reusable conditional-->
+
+<div id="content" class="top-level">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+	
+
+
+
+
+
+
+
+
+
+<form method="POST" action="https://secure2.convio.net/ksu/site/SSurvey">
+<div class="appArea">
+	
+
+
+
+<h3 class="ObjTitle">Kent State University Parents and Families Association</h3>
+<p></p>
+ 
+</div>
+<div class="appArea">
+<table width="100%" border="0" cellspacing="4" cellpadding="0">
+<tr valign="top" class="old-school">
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+As part of the Parents and Families Association, you have access to a number of great benefits and perks! Please complete the contact form below to stay connected via email communication. 
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<h2 style="font-size:22px">Family Member 1 (Required)</h2>
+<p><em>Please include all the information about the person filling out the form.</p>
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<span class="Explicit">Please complete the following:</span><br />
+
+
+<table border="0" cellspacing="4" cellpadding="0">
+<tr style="position:absolute;left:-9999px">
+<td colspan="3">
+<input type="hidden" name="cons_info_component" id="cons_info_component" value="t" />
+</td>
+</tr>
+
+
+
+
+
+<tr valign="bottom">
+<td width="1%">
+
+<p>*</p>
+
+</td>
+<td>
+<p><label for="cons_first_name">First Name: <span style="position:absolute;left:-9999px">Required</span></label></p>
+</td>
+<td class="NetscapeFix">
+<input type="text" name="cons_first_name" id="cons_first_name" value="" size="15" maxlength="50" />
+</td>
+</tr>
+
+
+
+<tr valign="bottom">
+<td width="1%">
+
+<p>*</p>
+
+</td>
+<td>
+<p><label for="cons_last_name">Last Name: <span style="position:absolute;left:-9999px">Required</span></label></p>
+</td>
+<td class="NetscapeFix">
+<input type="text" name="cons_last_name" id="cons_last_name" value="" size="15" maxlength="50" />
+</td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+<td width="1%">
+
+<p>*</p>
+
+</td>
+<td nowrap="nowrap">
+<p><label for="cons_email">Email: <span style="position:absolute;left:-9999px">Required</span></label></p>
+</td>
+<td>
+<input type="email" name="cons_email" id="cons_email" value="" size="15" maxlength="255" />
+</td>
+</tr>
+
+
+
+
+
+
+<tr>
+<td width="1%">
+
+<p>*</p>
+
+</td>
+<td>
+<p><label for="cons_street1">Street 1: <span style="position:absolute;left:-9999px">Required</span></label></p>
+</td>
+<td>
+<input type="text" name="cons_street1" id="cons_street1" value="" size="15" maxlength="128" />
+</td>
+</tr>
+
+
+
+<tr>
+<td width="1%">
+
+<p>&nbsp;</p>
+
+</td>
+<td>
+<p><label for="cons_street2">Street 2: </label></p>
+</td>
+<td>
+<input type="text" name="cons_street2" id="cons_street2" value="" size="15" maxlength="128" />
+</td>
+</tr>
+
+
+ 
+
+
+
+<tr valign="bottom">
+<td width="1%">
+
+<p>*</p>
+
+</td>
+<td>
+<p><label for="cons_city">City: <span style="position:absolute;left:-9999px">Required</span></label></p>
+</td>
+<td>
+<input type="text" name="cons_city" id="cons_city" value="" size="15" maxlength="64" />
+</td>
+</tr>
+
+
+
+<tr valign="bottom">
+<td width="1%">
+
+<p>*</p>
+
+</td>
+<td>
+<p><label for="cons_state">State / Province: <span style="position:absolute;left:-9999px">Required</span></label></p>
+</td>
+<td>
+<select name="cons_state" id="cons_state" size="1" >
+<option ></option>
+<option value="AK" >AK</option>
+<option value="AL" >AL</option>
+<option value="AR" >AR</option>
+<option value="AZ" >AZ</option>
+<option value="CA" >CA</option>
+<option value="CO" >CO</option>
+<option value="CT" >CT</option>
+<option value="DC" >DC</option>
+<option value="DE" >DE</option>
+<option value="FL" >FL</option>
+<option value="GA" >GA</option>
+<option value="HI" >HI</option>
+<option value="IA" >IA</option>
+<option value="ID" >ID</option>
+<option value="IL" >IL</option>
+<option value="IN" >IN</option>
+<option value="KS" >KS</option>
+<option value="KY" >KY</option>
+<option value="LA" >LA</option>
+<option value="MA" >MA</option>
+<option value="MD" >MD</option>
+<option value="ME" >ME</option>
+<option value="MI" >MI</option>
+<option value="MN" >MN</option>
+<option value="MO" >MO</option>
+<option value="MS" >MS</option>
+<option value="MT" >MT</option>
+<option value="NC" >NC</option>
+<option value="ND" >ND</option>
+<option value="NE" >NE</option>
+<option value="NH" >NH</option>
+<option value="NJ" >NJ</option>
+<option value="NM" >NM</option>
+<option value="NV" >NV</option>
+<option value="NY" >NY</option>
+<option value="OH" >OH</option>
+<option value="OK" >OK</option>
+<option value="OR" >OR</option>
+<option value="PA" >PA</option>
+<option value="RI" >RI</option>
+<option value="SC" >SC</option>
+<option value="SD" >SD</option>
+<option value="TN" >TN</option>
+<option value="TX" >TX</option>
+<option value="UT" >UT</option>
+<option value="VA" >VA</option>
+<option value="VT" >VT</option>
+<option value="WA" >WA</option>
+<option value="WI" >WI</option>
+<option value="WV" >WV</option>
+<option value="WY" >WY</option>
+<option value="AS" >AS</option>
+<option value="FM" >FM</option>
+<option value="GU" >GU</option>
+<option value="MH" >MH</option>
+<option value="MP" >MP</option>
+<option value="PR" >PR</option>
+<option value="PW" >PW</option>
+<option value="VI" >VI</option>
+<option value="AA" >AA</option>
+<option value="AE" >AE</option>
+<option value="AP" >AP</option>
+<option value="AB" >AB</option>
+<option value="BC" >BC</option>
+<option value="MB" >MB</option>
+<option value="NB" >NB</option>
+<option value="NL" >NL</option>
+<option value="NS" >NS</option>
+<option value="NT" >NT</option>
+<option value="NU" >NU</option>
+<option value="ON" >ON</option>
+<option value="PE" >PE</option>
+<option value="QC" >QC</option>
+<option value="SK" >SK</option>
+<option value="YT" >YT</option>
+<option value="None" >None</option>
+
+</select>
+<script type="text/javascript">
+<!--
+var comp = new ObservableComponent('cons_state', '');
+comp.hide = function(_hidden)
+{
+var _display = _hidden ? 'none' : '';
+set_display ('cons_state_Row', _display);
+this.disable_submit_flag (_hidden);
+} 
+//-->
+</script>
+<noscript><br/>Required</noscript>
+
+</td>
+</tr>
+
+
+
+<tr valign="bottom">
+<td width="1%">
+
+<p>*</p>
+
+</td>
+<td>
+<p><label for="cons_zip_code">Zip / Postal Code <span style="position:absolute;left:-9999px">Required</span></label></p>
+</td>
+<td>
+<input type="text" name="cons_zip_code" id="cons_zip_code" value="" size="15" maxlength="40" />
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td width="1%">
+<p>&nbsp;</p>
+</td>
+<td colspan="2">
+<p class="AutoOptInWarningMessage">You may receive periodic communications from Kent State University.</p>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+<br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_4_8843">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Phone Number:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_4_8843" id="2385_4124_4_8843" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+<span class="req true" title="Required">*</span>
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_5_4465">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Required -
+</span>
+<span class="Explicit">
+Relationship to Student(s):
+</span>
+</label>
+<br />
+<span class="NetscapeFix">
+<select name="2385_4124_5_4465" id="2385_4124_5_4465" onchange="choiceSelected('2385_4124_5_4465', this.selectedIndex);">
+
+<option value="NOREPLY" >Please select response</option>
+<option value="Father" >Father</option>
+<option value="Mother" >Mother</option>
+<option value="Parent" >Parent</option>
+<option value="Guardian" >Guardian</option>
+<option value="Grandparent" >Grandparent</option>
+<option value="Step-parent" >Step-parent</option>
+<option value="Aunt" >Aunt</option>
+<option value="Uncle" >Uncle</option>
+<option value="Other" >Other</option>
+</select>
+</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+<span class="req true" title="Required">*</span>
+</td>
+
+
+<td>
+<fieldset>
+<legend class="surveyLegend Explicit">
+<span class="legendWrapper" style="display:block; white-space:normal; width:100%;">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Required -
+</span>
+<span>Are you a graduate of Kent State University?</span>
+</span>	
+</legend>
+<span class="NetscapeFix">
+<input type="radio" name="2385_4124_6_8833" id="2385_4124_6_8833_1" class="radio" value="Yes" 
+ /><span class="Explicit"><label class="wrapable" for="2385_4124_6_8833_1">Yes</label></span><br />
+<input type="radio" name="2385_4124_6_8833" id="2385_4124_6_8833_2" class="radio" value="No" 
+ /><span class="Explicit"><label class="wrapable" for="2385_4124_6_8833_2">No</label></span><br />
+
+</span>
+<br />
+</fieldset>
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_7_8834">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+If you are a graduate of Kent State University, please enter your grad year:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_7_8834" id="2385_4124_7_8834" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<h2 style="font-size:22px">Family Member 2 (Optional)</h2>
+<p><em>Please include all of the information about "family member 2" and their relationship to the student.</em></p>
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_9_4298">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+First Name:
+</span>
+</label>
+&nbsp;
+<br />
+<span class="NetscapeFix"><input type="text" name="2385_4124_9_4298" id="2385_4124_9_4298" value="" size="30" maxlength="40" /></span>
+<br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_10_8835">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Last Name:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_10_8835" id="2385_4124_10_8835" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_11_6876">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Email:
+</span>
+</label>
+&nbsp;
+<br />
+<span class="NetscapeFix"><input type="text" name="2385_4124_11_6876" id="2385_4124_11_6876" value="" size="30" maxlength="40" /></span>
+<br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_12_8842">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Phone number:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_12_8842" id="2385_4124_12_8842" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_13_4386">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Relationship to Student(s)
+</span>
+</label>
+<br />
+<span class="NetscapeFix">
+<select name="2385_4124_13_4386" id="2385_4124_13_4386" onchange="choiceSelected('2385_4124_13_4386', this.selectedIndex);">
+
+<option value="NOREPLY" >Please select response</option>
+<option value="Father" >Father</option>
+<option value="Mother" >Mother</option>
+<option value="Parent" >Parent</option>
+<option value="Guardian" >Guardian</option>
+<option value="Grandparent" >Grandparent</option>
+<option value="Step-parent" >Step-parent</option>
+<option value="Aunt" >Aunt</option>
+<option value="Uncle" >Uncle</option>
+<option value="Other" >Other</option>
+</select>
+</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_14_8846">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Is this family member a graduate of Kent State University?
+</span>
+</label>
+<br />
+<span class="NetscapeFix">
+<select name="2385_4124_14_8846" id="2385_4124_14_8846" onchange="choiceSelected('2385_4124_14_8846', this.selectedIndex);">
+
+<option value="NOREPLY" >Please select response</option>
+<option value="Yes" >Yes</option>
+<option value="No" >No</option>
+</select>
+</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_15_8845">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+If this family member is a graduate of Kent State University, please enter their grad year:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_15_8845" id="2385_4124_15_8845" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<h2 style="font-size:22px">Student Information</h2>
+<p><em>Please include all of the information about the student in question.</em></p>
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_17_8837">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+First Name:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_17_8837" id="2385_4124_17_8837" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_18_8838">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Middle Name (or initial):
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_18_8838" id="2385_4124_18_8838" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_19_8839">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Last Name:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_19_8839" id="2385_4124_19_8839" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_20_8840">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Student KSU Email:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_20_8840" id="2385_4124_20_8840" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+<tr valign="top" class="old-school">
+
+
+
+<td width="5%" class="req" align="right" nowrap="nowrap">
+&nbsp;
+</td>
+
+
+<td>
+<label class="wrapable" for="2385_4124_21_8841">
+<span class="aural-only" style="position: absolute; left: -9999px;">
+Question - Not Required -
+</span>
+<span class="Explicit">
+Student Phone Number:
+</span>
+</label>
+<br />
+<span class="NetscapeFix"><textarea cols="50" rows="5" name="2385_4124_21_8841" id="2385_4124_21_8841" onKeyUp="limitArea(this, 255, 'Error: This text area is limited to 255 characters.  Please modify your text accordingly.')"></textarea></span><br />
+<span class="Hint">(Maximum response 255 chars, approx. 5 rows of text)</span><br /><br />
+</td>
+
+</tr>
+
+</table>
+</div>
+<div class="appArea">
+
+
+
+
+</div>
+
+<div style="display:none">
+<label for="denySubmit">Spam Control Text:</label>&nbsp;
+<input type="text" name="denySubmit" id="denySubmit" value="" alt="This field is used to prevent form submission by scripts." />&nbsp;Please leave this field empty
+</div>	
+	
+<div class="appArea">
+<p>
+<input type="submit" name="ACTION_SUBMIT_SURVEY_RESPONSE" id="ACTION_SUBMIT_SURVEY_RESPONSE" value="Join Today!" class="Button" />&nbsp;&nbsp;
+<input type="reset" name="reset" id="reset" value="Reset Answers" class="Button" />&nbsp;&nbsp;
+<input type="submit" name="ACTION_CANCEL_RESPONSE_SUBMIT" id="ACTION_CANCEL_RESPONSE_SUBMIT" value="Skip Survey" class="Button" />
+</p>
+</div>
+
+<input type="hidden" name="SURVEY_ID" id="SURVEY_ID" value="4124" />
+
+</form>
+
+</div>
+</div>
+</div>
+</div>
+<footer class="top-level">
+	<!-- reus_wrpr_give2KSU_footer -->
+<div class="container">
+<div class="row">
+<div class="col-sm-4" id="contact-info">
+<p class="yellow">Street Address</p>
+	<p>350 S. Lincoln Street<br>
+Kent, OH 44240</p>
+</div>
+<div class="col-sm-4" id="contact-info">
+<p class="yellow">Mailing Address</p>
+	<p>P.O. Box 5190<br>Kent, OH 44242-0001</p>
+</div>
+<div class="col-sm-4" id="contact-info">
+<p class="yellow">Contact Us</p>
+	<p>330-672-2222<br><a href="mailto:advancement@kent.edu">advancement@kent.edu</a></p>
+</div>
+</div>
+<div class="row text-center social-media-row">
+	<div class="col-xs-12">
+		<ul class="social-icons">
+			<li><a href="https://www.facebook.com/alltogetherKSU/" target="_blank" title="Facebook"><img src="../images/content/pagebuilder/facebook-eventsurvey.png" border="0" width="38" height="38" alt="Facebook"></a></li>
+			<li><a href="https://www.youtube.com/channel/UCuGQp2HtCRioD95sC20IQ9g" target="_blank" title="YouTube"><img src="../images/content/pagebuilder/youtube-eventsurvey.png" border="0" width="39" height="38" alt="YouTube"></li>
+			<li><a href="https://www.flickr.com/photos/160831827@N06/" target="_blank" title="Flickr"><img src="../images/content/pagebuilder/flickr-eventsurvey.png" border="0" width="39" height="38" alt="Flickr"></li>
+			<li><a href="https://www.instagram.com/alltogetherksu/" target="_blank" title="Instagram"><img src="../images/content/pagebuilder/instagram-eventsurvey.png" border="0" width="39" height="38" alt="Instagram"></li>
+			<li><a href="https://twitter.com/alltogetherKSU" target="_blank" title="Twitter"><img src="../images/content/pagebuilder/twitter-eventsurvey.png" border="0" width="38" height="38" alt="Twitter"></li>
+		</ul>
+	</div>
+
+</div>
+</div>
+
+<a href="http://www.kent.edu/advancement/give-online-now"><img alt="Kent State University Home" title="Kent State University" src="../give2KSU/img/Kent-State-Logo-White-Fallback.png"></a>  
+
+<p>&copy;2020 Kent State University. All Rights Reserved.</p>
+
+
+</footer>
+</body>
+
+</html>
